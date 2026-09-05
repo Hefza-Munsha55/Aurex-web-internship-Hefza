@@ -1,22 +1,40 @@
-# AUREX Web Internship - Week 1 Task
+# AUREX Web Internship - Week 1
 
-## About Me
-Hi, I'm **Hefza Munsha** 👋  
-This is my first webpage created for the AUREX Web Development Internship 2026.
+## Intern Details
+- **Full Name**: Hefza Munsha
+- **Domain**: Full-Stack Web Development
+- **Week**: Week 1
 
-## Project Details
-- **Task**: Create a personal webpage with name, intro, and logo
-- **Technologies Used**: HTML5, CSS
-- **Week**: 1
+## Task Description
+This repository contains my personal profile webpage created for AUREX Web Internship Week 1.
+The goal of this week was to understand clean HTML structure, semantic elements, and basic Git/GitHub workflow.
+No CSS was used as per the strict rules of Week 1.
 
-## What I Learned
-- How to create a GitHub repository
-- How to use GitHub Desktop
-- How to write basic HTML and CSS
-- How to push code to GitHub
+## Technologies Used
+- HTML5
+- Git
+- GitHub
+- VS Code
 
-## Connect
-[GitHub Profile](https://github.com/Hefza-Munsha55)
+## How to Run the Project Locally
+1. Clone this repository: `git clone <your-repo-link>`
+2. Open the folder in VS Code
+3. Right click on `index.html` and select "Open with Live Server"
+   OR simply double click `index.html` to open in browser
 
----
-Made with ❤️ for AUREX Internship
+## Key Learnings
+- Learned about semantic HTML tags: `header`, `nav`, `main`, `section`, `article`, `footer`
+- Understood the importance of accessibility: `alt` attributes and `label` tags
+- Practiced Git commands: `add`, `commit`, `push`
+- Learned to structure a webpage without using CSS
+
+## Difficulties / Blockers Encountered
+- Initial issue with image not displaying due to file extension `.jpeg.jpeg`
+- Learned to check file names and use `Ctrl + Shift + R` for cache clear
+
+## Checklist Completed
+- [x] GitHub Profile Setup
+- [x] Repository Created: `aurex-web-internship-hefza`
+- [x] Semantic HTML Webpage with all required sections
+- [x] Image with alt attribute
+- [x] Contact Form with labels
