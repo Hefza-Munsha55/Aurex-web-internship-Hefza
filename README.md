@@ -1,40 +1,48 @@
-# AUREX Web Internship - Week 1
+# AUREX Internship | Week 2: Responsive Portfolio
 
-## Intern Details
-- **Full Name**: Hefza Munsha
-- **Domain**: Full-Stack Web Development
-- **Week**: Week 1
+<div align="center">
+  <img src="logo.jpeg" alt="Portfolio Logo" width="80"/>
+  <h3>Modern Responsive Portfolio Website</h3>
+  <p>Built with pure HTML5 & CSS3 | Grid, Flexbox & Mobile-First Design</p>
+</div>
 
-## Task Description
-This repository contains my personal profile webpage created for AUREX Web Internship Week 1.
-The goal of this week was to understand clean HTML structure, semantic elements, and basic Git/GitHub workflow.
-No CSS was used as per the strict rules of Week 1.
+---
 
-## Technologies Used
-- HTML5
-- Git
-- GitHub
-- VS Code
+## 👩‍💻 About Me
+**Name:** Hefza Munsha  
+**Track:** Web Development - Full Stack  
+**Goal:** Crafting clean, accessible, and pixel-perfect web experiences.
 
-## How to Run the Project Locally
-1. Clone this repository: `git clone <your-repo-link>`
-2. Open the folder in VS Code
-3. Right click on `index.html` and select "Open with Live Server"
-   OR simply double click `index.html` to open in browser
+## 🚀 Live Demo
+**Portfolio:** [View Live Site](https://Hefza Munsha55.github.io/aurex-web-internship-hefza-week2)  
+*Deployed on GitHub Pages*
 
-## Key Learnings
-- Learned about semantic HTML tags: `header`, `nav`, `main`, `section`, `article`, `footer`
-- Understood the importance of accessibility: `alt` attributes and `label` tags
-- Practiced Git commands: `add`, `commit`, `push`
-- Learned to structure a webpage without using CSS
+## 🛠️ Tech Stack & Features Implemented
+This week I focused on modern CSS layout techniques instead of frameworks.
 
-## Difficulties / Blockers Encountered
-- Initial issue with image not displaying due to file extension `.jpeg.jpeg`
-- Learned to check file names and use `Ctrl + Shift + R` for cache clear
+| Feature | Implementation | Why it matters |
+| --- | --- | --- |
+| **CSS Grid** | `grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))` | Fully responsive skill cards without media queries |
+| **Flexbox** | Used in Navbar & Hero section | Perfect alignment and centering across devices |
+| **Mobile-First** | `@media (max-width: 768px)` breakpoints | Optimized UX from 320px to 1440px screens |
+| **Modern UI** | `linear-gradient`, `box-shadow`, `backdrop-filter` | Clean, light-pink theme with depth |
+| **Micro-interactions** | `transform: translateY()` on hover | Engaging user feedback |
 
-## Checklist Completed
-- [x] GitHub Profile Setup
-- [x] Repository Created: `aurex-web-internship-hefza`
-- [x] Semantic HTML Webpage with all required sections
-- [x] Image with alt attribute
-- [x] Contact Form with labels
+## 📸 Responsive Previews
+| Desktop | Tablet | Mobile |
+| --- | --- | --- |
+| Screenshot here | Screenshot here | Screenshot here |
+*Add your 3 screenshots here after taking them*
+
+## 💡 Key Learnings
+1.  **Layout Logic**: Grid is for 2D layouts, Flexbox is for 1D. Knowing when to use which was a game-changer.
+2.  **Design Systems**: Stuck to a 2-color palette `#FFE4E1` and `#C44569` for consistency.
+3.  **Accessibility**: Used semantic HTML tags and proper color contrast for readability.
+
+## ⚡ Challenges & Solutions
+- **Challenge:** Making the skill grid collapse to 1 column on mobile without breaking.  
+  **Solution:** Used `auto-fit` + `minmax()` so the browser handles it automatically.
+- **Challenge:** Text readability on light pink backgrounds.  
+  **Solution:** Tested contrast ratios and used dark pink `#A23B5A` for body text.
+
+## 📂 Project Structure
