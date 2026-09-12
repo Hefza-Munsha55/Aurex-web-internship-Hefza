@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-card">
+        <h1 id="welcome"></h1>
+        <p>Welcome to your personal dashboard. You are now logged in.</p>
+        
+        <button id="themeBtn" class="logout-btn" style="background: #444;">🌙 Dark Mode</button>
+        <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>Your Profile</h2>
+        <p><b>Name:</b> <span id="profileName"></span></p>
+        <p><b>Email:</b> <span id="profileEmail"></span></p>
+        <p><b>Joined:</b> <span id="profileDate"></span></p>
+    </div>
+
+<script>
+    // 1. CHECK LOGIN
+    const loggedInEmail = localStorage.getItem("loggedInUser") || sessionStorage.getItem("loggedInUser");
+    
+    if(!loggedInEmail){
+        window.location.href = "index.html";
+    }
+
+    // 2. LOAD PROFILE
+    const userData = JSON.parse(localStorage.getItem(loggedInEmail));
+    document.getElementById('welcome').innerText = `Good Evening, ${userData.name}!`;
+    document.getElementById('profileName').innerText = userData.name;
+    document.getElementById('profileEmail').innerText = userData.email;
+    document.getElementById('profileDate').innerText = userData.joined;
+
+    // 3. LOGOUT
+    document.getElementById('logoutBtn').addEventListener('click', () => {
+        localStorage.removeItem("loggedInUser");
+        sessionStorage.removeItem("loggedInUser");
+        window.location.href = "index.html";
+    });
+
+    // 4. DARK MODE - YE NAYA HAI
+    const themeBtn = document.getElementById('themeBtn');
+    const body = document.body;
+
+    // Page load pe check karo
+    if(localStorage.getItem("theme") === "dark"){
+        body.classList.add("dark-mode");
+        themeBtn.innerText = "☀️ Light Mode";
+    }
+
+    themeBtn.addEventListener('click', () => {
+        body.classList.toggle("dark-mode");
+        
+        if(body.classList.contains("dark-mode")){
+            localStorage.setItem("theme", "dark");
+            themeBtn.innerText = "☀️ Light Mode";
+        } else {
+            localStorage.setItem("theme", "light");
+            themeBtn.innerText = "🌙 Dark Mode";
+        }
+    });
+</script>
+</body>
+</html>

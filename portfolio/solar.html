@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunPower Solar - Save with Solar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <div class="logo">☀️ SunPower</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#calculator">Calculator</a>
+            <a href="login.html">Login</a>
+        </nav>
+        <button id="themeBtn">🌙</button>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Switch to Solar Energy</h1>
+            <p>Save up to 70% on your electricity bill. Get clean, green energy for your home.</p>
+            <button class="btn">Get Free Quote</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Why Choose Solar?</h2>
+        <div class="cards">
+            <div class="card"><i class='bx bx-dollar-circle'></i><h3>Save Money</h3><p>Reduce electricity bills by 70%</p></div>
+            <div class="card"><i class='bx bx-leaf'></i><h3>Eco Friendly</h3><p>100% Clean and Renewable Energy</p></div>
+            <div class="card"><i class='bx bx-shield'></i><h3>25 Year Warranty</h3><p>Long life solar panels</p></div>
+        </div>
+    </section>
+
+    <section id="calculator">
+        <h2>Solar Savings Calculator</h2>
+        <input type="number" id="bill" placeholder="Enter your monthly bill in PKR">
+        <button onclick="calculate()">Calculate Savings</button>
+        <p id="result"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

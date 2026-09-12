@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hefza - AUREX Web Internship Week 1</title>
+    <link rel="stylesheet" href="aurex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- Header -->
     <header>
-        <h1>Hefza Munsha</h1>
-        <p>Aspiring Full-Stack Web Developer</p>
-    
-        
-        
-        <!-- Navigation -->
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hefza Munsha</h1>
+                <p>Aspiring Full-Stack Web Developer</p>
+                
+                <!-- Navigation -->
+                <nav>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
     </header>
 
     <!-- Main Content -->
@@ -34,15 +38,15 @@
             <h2>About Me</h2>
             <img src="logo.jpeg" alt="Hefza's Profile Photo" width="150" height="150">
             <ul>
-                <li><b>GitHub Repository:</b> <a href="https://github.com/Hefza-Munsha55/Aurex-web-internship-Hefza" target="_blank">https://github.com/Hefza-Munsha55/Aurex-web-internship-Hefza</a></li>
-                <li><b>GitHub Profile:</b> <a href="https://github.com/Hefza-Munsha55" target="_blank">https://github.com/Hefza-Munsha55</a></li>
-                <li><b>LinkedIn Profile:</b> <a href="https://www.linkedin.com/in/hefza-munsha-4a1b35381" target="_blank">https://www.linkedin.com/in/hefza-munsha-4a1b35381</a></li>
+                <li><b>GitHub Repository:</b> <a href="https://github.com/Hefza-Munsha55/Aurex-web-internship-Hefza" target="_blank">GitHub Repo</a></li>
+                <li><b>GitHub Profile:</b> <a href="https://github.com/Hefza-Munsha55" target="_blank">GitHub Profile</a></li>
+                <li><b>LinkedIn Profile:</b> <a href="https://www.linkedin.com/in/hefza-munsha-4a1b35381" target="_blank">LinkedIn</a></li>
             </ul>
 
             <p>
-                Hello! I'm Hefza, a passionate web development student. 
-                This is my first webpage for AUREX Web Internship - Week 1. 
-                I am excited to learn HTML, CSS, JavaScript and build real projects.
+                <p>
+I'm Hefza Munsha, a Full-Stack Web Developer dedicated to crafting seamless, high-performance web applications. I bridge design and technology by writing clean, maintainable code in HTML, CSS, JavaScript, and Python. With a focus on user experience and efficiency, I’m currently expanding my expertise through the AUREX Web Internship. My goal is simple: build products that are intuitive, fast, and impactful.
+</p>
             </p>
         </section>
 
@@ -51,8 +55,9 @@
             <h2>Skills</h2>
             <ul>
                 <li>HTML5</li>
-                <li>CSS3 - Coming Soon</li>
+                <li>CSS3</li>
                 <li>JavaScript - Coming Soon</li>
+                <li>Python</li>
                 <li>Git & GitHub</li>
                 <li>VS Code</li>
             </ul>
@@ -62,48 +67,72 @@
         <section id="education">
             <h2>Education</h2>
             <article>
-                <h3>Web Development Internship</h3>
-                <p><strong>AUREX</strong> | 2026</p>
-                <p>Learning modern web development technologies and best practices.</p>
+                <div class="edu-card">
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p><strong>Govt.Islamia Post Graduate College Gujranwala</strong> | 2023-2027</p>
+                <p><strong>Status:</strong> Final year student - 7th Semester</p>
+                <p><strong>CGPA:</strong> 3.60/4.0</p>
+                <p><strong>Key Coursework:</strong> Full stack web Dev, Learning modern web development technologies and best practices.</p>
+                </div>
             </article>
         </section>
 
-        <!-- Experience Section - Optional -->
+        <!-- Experience Section -->
         <section id="experience">
             <h2>Experience</h2>
-            <article>
-                <h3>Fresher / Student</h3>
-                <p>Currently focusing on learning and building portfolio projects.</p>
-            </article>
+            
+            <div class="exp-card">
+                <h3>Frontend Developer</h3>
+                <span class="year">Personal Projects</span>
+                <ul>
+                    <li>Designed and deployed responsive portfolio website using HTML, CSS, and JavaScript</li>
+                    <li>Practiced modern CSS techniques: Flexbox, Grid, Media Queries, and CSS Variables</li>
+                    <li>Learning through freeCodeCamp's 300-hour Responsive Web Design Certification</li>
+                </ul>
+            </div>
+
+            <div class="exp-card">
+                <h3>Python Developer</h3>
+                <span class="year">Certified by UniAthena • 2026</span>
+                <ul>
+                    <li>Certified in Python fundamentals including functions, OOP, and modules</li>
+                    <li>Built command-line tools and automation scripts to solve real-world problems</li>
+                    <li>Currently expanding skills to Flask and data analysis with Pandas</li>
+                </ul>
+            </div>
         </section>
 
         <!-- Contact Form Section -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <br><br>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name <span aria-hidden="true">*</span></label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br><br>
+                    <div class="form-group">
+                        <label for="email">Email <span aria-hidden="true">*</span></label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
 
-                <label for="message">Message:</label>
-                <br>
-                <textarea id="message" name="message" rows="4" cols="30" required></textarea>
-                <br><br>
+                    <div class="form-group">
+                        <label for="message">Message <span aria-hidden="true">*</span></label>
+                        <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
 
-                <button type="submit">Send Message</button>
-            </form>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
         </section>
-
     </main>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2026 Hefza Munsha. All rights reserved.</p>
-        <p>AUREX Web Internship - Week 1 Task</p>
+        <p>AUREX Web Internship - Week 2 Task</p>
     </footer>
 
 </body>
