@@ -14,7 +14,7 @@
 **Goal:** Crafting clean, accessible, and pixel-perfect web experiences.
 
 ## 🚀 Live Demo
-**Portfolio:** [View Live Site](https://Hefza Munsha55.github.io/aurex-web-internship-hefza-week2)  
+**Portfolio:** [View Live Site](https://hefza-munsha55.github.io/Aurex-web-internship-Hefza-week-2-/)  
 *Deployed on GitHub Pages*
 
 ## 🛠️ Tech Stack & Features Implemented
