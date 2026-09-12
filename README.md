@@ -31,8 +31,7 @@ This week I focused on modern CSS layout techniques instead of frameworks.
 ## 📸 Responsive Previews
 | Desktop | Tablet | Mobile |
 | --- | --- | --- |
-| Screenshot here | Screenshot here | Screenshot here |
-*Add your 3 screenshots here after taking them*
+| [Desktop](image.png) | ![mobile](image-1.png) |[tablet] https://1drv.ms/i/c/f72df808543835ae/IQCzns7QJpONR7tLphAGYxnSAegDfJrxhWl_69RaWAZpw9w?e=aUH8ZV |
 
 ## 💡 Key Learnings
 1.  **Layout Logic**: Grid is for 2D layouts, Flexbox is for 1D. Knowing when to use which was a game-changer.
