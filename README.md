@@ -1,47 +1,39 @@
-# AUREX Internship | Week 2: Responsive Portfolio
+# AUREX Web Internship - Week 3
+**Name:** Hefza Munsha
+**Domain:** Full-Stack Web Development
+**Week:** 3 - Interactive & Animated Modern Web Application
 
-<div align="center">
-  <img src="logo.jpeg" alt="Portfolio Logo" width="80"/>
-  <h3>Modern Responsive Portfolio Website</h3>
-  <p>Built with pure HTML5 & CSS3 | Grid, Flexbox & Mobile-First Design</p>
-</div>
+### Live Demo
+**Live Link:** https://hefza-munsha55.github.io/Aurex-Web-Internship-Hefza-Week3-/
+**GitHub Repo:** https://github.com/Hefza-Munsha55/Aurex-Web-Internship-Hefza-Week3-
 
----
+### Project Overview
+This phase focuses on transforming a static portfolio into a dynamic, high-performance web application. The core objective is to engineer an immersive user experience through Advanced CSS Grid Systems (auto-fit / minmax) and sophisticated micro-interactions.
 
-## 👩‍💻 About Me
-**Name:** Hefza Munsha  
-**Track:** Web Development - Full Stack  
-**Goal:** Crafting clean, accessible, and pixel-perfect web experiences.
+### Key Features Implemented
+1. **Advanced CSS Grid Layout:** Used `repeat(auto-fit, minmax(300px, 1fr))` for intelligent, self-adjusting multi-column showcase.
+2. **Micro-interactions & Animations:** Card hover elevation (`translateY`), button interactions, smooth fade-in page load effects using `@keyframes`.
+3. **Fully Responsive:** Fluid typography with `clamp()`, tested on Mobile, Tablet, and Desktop.
+4. **Modern UI:** Glassmorphism, CSS Custom Properties (variables), and clean BEM methodology.
+5. **Performance Optimized:** Lightweight animations, optimized CSS structure.
 
-## 🚀 Live Demo
-**Portfolio:** [View Live Site](https://hefza-munsha55.github.io/Aurex-web-internship-Hefza-week-2-/)  
-*Deployed on GitHub Pages*
+### Folder Structure
+├── index.html
+├── styles/
+│ ├── main.css
+│ └── animations.css
+└── README.md
 
-## 🛠️ Tech Stack & Features Implemented
-This week I focused on modern CSS layout techniques instead of frameworks.
+### Tech Stack
+- HTML5
+- CSS3 (Grid, Flexbox, Animations, Custom Properties)
+- Git & GitHub Pages for Deployment
 
-| Feature | Implementation | Why it matters |
-| --- | --- | --- |
-| **CSS Grid** | `grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))` | Fully responsive skill cards without media queries |
-| **Flexbox** | Used in Navbar & Hero section | Perfect alignment and centering across devices |
-| **Mobile-First** | `@media (max-width: 768px)` breakpoints | Optimized UX from 320px to 1440px screens |
-| **Modern UI** | `linear-gradient`, `box-shadow`, `backdrop-filter` | Clean, light-pink theme with depth |
-| **Micro-interactions** | `transform: translateY()` on hover | Engaging user feedback |
+### How to Run Locally
+Just open `index.html` in browser.
 
-## 📸 Responsive Previews
-| Desktop | Mobile | Tablet |
-| --- | --- | --- |
-| https://1drv.ms/i/c/f72df808543835ae/IQAnyd7NkB1pQK7qbpjf2QHWAUr-seVbcPXvq5_M_nFBYw8?e=l0GVuf | https://1drv.ms/i/c/f72df808543835ae/IQAuGGiPYPUjQp5y4BBuAISHAWwxZw1rLMepYME1nD850Yc?e=vG8STS | https://1drv.ms/i/c/f72df808543835ae/IQCzns7QJpONR7tLphAGYxnSAegDfJrxhWl_69RaWAZpw9w?e=aUH8ZV |
-
-## 💡 Key Learnings
-1.  **Layout Logic**: Grid is for 2D layouts, Flexbox is for 1D. Knowing when to use which was a game-changer.
-2.  **Design Systems**: Stuck to a 2-color palette `#FFE4E1` and `#C44569` for consistency.
-3.  **Accessibility**: Used semantic HTML tags and proper color contrast for readability.
-
-## ⚡ Challenges & Solutions
-- **Challenge:** Making the skill grid collapse to 1 column on mobile without breaking.  
-  **Solution:** Used `auto-fit` + `minmax()` so the browser handles it automatically.
-- **Challenge:** Text readability on light pink backgrounds.  
-  **Solution:** Tested contrast ratios and used dark pink `#A23B5A` for body text.
-
-## 📂 Project Structure
+### Testing Checklist
+-  Responsive on all devices
+-  Animations working smoothly
+-  No overlapping content
+-  Live deployment working
