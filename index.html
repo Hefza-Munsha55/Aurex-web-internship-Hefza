@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hefza - AUREX Web Internship Week 1</title>
     <link rel="stylesheet" href="aurex.css">
+    <link rel="stylesheet" href="animations.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+
+    
+</body>
 </head>
 <body>
 
@@ -44,7 +50,8 @@
                 <li><b>LinkedIn Profile:</b> <a href="https://www.linkedin.com/in/hefza-munsha-4a1b35381" target="_blank">LinkedIn</a></li>
             </ul>
 
-            <p>
+
+            
                 <p>
 I'm Hefza Munsha, a Full-Stack Web Developer dedicated to crafting seamless, high-performance web applications. I bridge design and technology by writing clean, maintainable code in HTML, CSS, JavaScript, and Python. With a focus on user experience and efficiency, I’m currently expanding my expertise through the AUREX Web Internship. My goal is simple: build websites that are intuitive, fast, and impactful.
 </p>
@@ -63,69 +70,82 @@ I'm Hefza Munsha, a Full-Stack Web Developer dedicated to crafting seamless, hig
                 <li>VS Code</li>
             </ul>
         </section>
-
+<!-- Projects Section -->
+ <section class="projects">
+  <h2>My Projects</h2>
+  <div class="projects__grid">
+    <div class="projects__card"><h3>Portfolio Website</h3><p>Responsive portfolio with glassmorphism.</p><span>HTML</span><span> CSS Grid</span></div>
+    <div class="projects__card"><h3>Landing Page</h3><p>Modern landing with animations.</p><span class="projects__tag">Flexbox Animation</span></div>
+    <div class="projects__card"><h3>UI Components</h3><p>Reusable cards & buttons.</p><span class="projects__tag">BEM CSS</span></div>
+  </div>
+</section>
         <!-- Education Section -->
         <section id="education">
             <h2>Education</h2>
             <article>
                 <div class="edu-card">
+                    
                 <h3>Bachelor of Science in Information Technology</h3>
                 <p><strong>Govt.Islamia Post Graduate College Gujranwala</strong> | 2023-2027</p>
                 <p><strong>Status:</strong> Final year student - 7th Semester</p>
                 <p><strong>CGPA:</strong> 3.60/4.0</p>
                 <p><strong>Key Coursework:</strong> Full stack web Dev, Learning modern web development technologies and best practices.</p>
                 </div>
-            </article>
+                </article>
         </section>
 
         <!-- Experience Section -->
         <section id="experience">
             <h2>Experience</h2>
-            
+            <article>
             <div class="exp-card">
                 <h3>Frontend Developer</h3>
-                <span class="year">Personal Projects</span>
+                <span class="year"><br>Personal Projects :</span>
                 <ul>
                     <li>Designed and deployed responsive portfolio website using HTML, CSS, and JavaScript</li>
                     <li>Practiced modern CSS techniques: Flexbox, Grid, Media Queries, and CSS Variables</li>
                     <li>Learning through freeCodeCamp's 300-hour Responsive Web Design Certification</li>
                 </ul>
             </div>
-
+</article>
+<article>
             <div class="exp-card">
+                
                 <h3>Python Developer</h3>
-                <span class="year">Certified by UniAthena • 2026</span>
+                <span class="year"><br>Certified by UniAthena • 2026</span>
                 <ul>
                     <li>Certified in Python fundamentals including functions, OOP, and modules</li>
                     <li>Built command-line tools and automation scripts to solve real-world problems</li>
                     <li>Currently expanding skills to Flask and data analysis with Pandas</li>
                 </ul>
             </div>
+        </article>
         </section>
 
         <!-- Contact Form Section -->
         <section id="contact" class="contact">
             <div class="container">
                 <h2 class="section-title">Contact Me</h2>
-                
+                <article>
                 <form class="contact-form">
                     <div class="form-group">
-                        <label for="name">Name <span aria-hidden="true">*</span></label>
+                        <label for="name">Name*</label>
                         <input type="text" id="name" placeholder="Enter your name" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="email">Email <span aria-hidden="true">*</span></label>
+                        <label for="email">Email*</label>
                         <input type="email" id="email" placeholder="Enter your email" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="message">Message <span aria-hidden="true">*</span></label>
+                        <label for="message">Message*</label>
                         <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
                     </div>
 
                     <button type="submit" class="submit-btn">Send Message</button>
                 </form>
+                </article>
             </div>
         </section>
     </main>
@@ -133,7 +153,7 @@ I'm Hefza Munsha, a Full-Stack Web Developer dedicated to crafting seamless, hig
     <!-- Footer -->
     <footer>
         <p>&copy; 2026 Hefza Munsha. All rights reserved.</p>
-        <p>AUREX Web Internship - Week 2 Task</p>
+        <p>AUREX Web Internship - Week 3 Task</p>
     </footer>
 
 </body>
